@@ -1,9 +1,10 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, StatusBar } from "react-native";
 
 export default function loading() {
   return (
     <View style={styles.container}>
+      <StatusBar barStyle="dark-content" backgroundColor="#FDF6AA" />
       <Text style={styles.text}>Now We Getting</Text>
       <Text style={styles.text}>How Nice Weather</Text>
     </View>
