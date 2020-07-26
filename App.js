@@ -5,7 +5,7 @@ import * as Location from "expo-location";
 import Loading from "./Loading";
 import Weather from "./Weather";
 
-const API_KEY = "91ba96db83e31bbf6cf7b10794ba8f2a";
+const API_KEY = "";
 export default class extends React.Component {
   state = {
     isLoading: true,
